@@ -265,7 +265,8 @@ const App: React.FC = () => {
                   <div className="p-4 bg-indigo-50 rounded-2xl border border-indigo-100 text-xs text-indigo-800 space-y-2">
                     <h4 className="font-bold flex items-center gap-2"><ShieldCheck size={14}/> Critical Steps for "Original Gmail" Connection:</h4>
                     <ol className="list-decimal pl-4 space-y-1">
-                      <li>Go to Google Cloud Console > APIs & Services > Credentials.</li>
+                      <li>Go to Google Cloud Console &gt; APIs & Services &gt; Credentials.</li>
+
                       <li>Create an <strong>OAuth 2.0 Client ID</strong> (Web Application).</li>
                       <li>Add <strong>Authorized JavaScript Origins</strong>: <code>{window.location.origin}</code></li>
                       <li>Paste the Client ID here and save.</li>
